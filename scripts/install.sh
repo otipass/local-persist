@@ -4,8 +4,6 @@ set -e
 
 VERSION="v1.3.0"
 
-gitDir=$(realpath `dirname $BASH_SOURCE`/..)
-echo $gitDir
 
 # uname -s, uname -m
 # Deb 32: Linux i686
